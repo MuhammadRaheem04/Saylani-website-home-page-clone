@@ -385,7 +385,24 @@
                </div>
               </div>
              </footer>
-           
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+            <df-messenger
+               intent="WELCOME"
+               chat-title="Saylani-Website-Agents"
+               agent-id="aa318b8b-e3bd-48b4-9252-f95d20b21409"
+               language-code="en"
+             ></df-messenger>     
+
+             <style>
+                df-messenger {
+                  --df-messenger-bot-message: #ffcc00; /* Bot message color */
+                  --df-messenger-user-message: #0077b6; /* User message color */
+                  --df-messenger-send-message-button-color: #ff9900; /* Send button color */
+                  --df-messenger-title: "Saylani Welfare Chat";
+                  --df-messenger-chat-background-color: #f1f1f1;
+                  --df-messenger-button-background-color: #4CAF50; /* Green button */
+                }
+              </style>
        
 </body>
 </html>
